@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #37474f;
+}
+
+.div-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.div-container > div {
+  margin: auto;
+}
